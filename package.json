@@ -1,0 +1,14 @@
+{
+  "name": "spirebreak",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Spirebreak — a third-person action MOBA for the browser (desktop + mobile). 5v5 with bots and online rooms. Zero dependencies.",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js --dev",
+    "test": "node --test tests/*.test.js",
+    "e2e": "node tests/e2e/smoke.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
